@@ -8,7 +8,7 @@ type MsgGetAllItems struct{}
 var _ common.Encoder = (*MsgGetAllItems)(nil)
 var _ common.Decoder = (*MsgGetAllItems)(nil)
 
-// Encode encodes MsgAddItem according to the following format:
+// Encode encodes MsgGetAllItems according to the following format:
 // +-----------+
 // | type      |
 // | (1 byte)  |
