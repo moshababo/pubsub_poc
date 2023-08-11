@@ -28,23 +28,23 @@ $ go build ./cmd/cli_client
 ```
 #### Run
 ```
-$ ./cmd/cli_client/cli_client -h
+$ ./cli_client -h
 ```
 #### Usage: add item
 ```
-$ ./cmd/cli_client/cli_client add --key=key1 --val=val1
+$ ./cli_client add --key=key1 --val=val1
 ```
 #### Usage: remove item
 ```
-$ ./cmd/cli_client/cli_client remove --key=key1
+$ ./cli_client remove --key=key1
 ```
 #### Usage: get item
 ```
-$ ./cmd/cli_client/cli_client get --key=key1
+$ ./cli_client get --key=key1
 ```
 #### Usage: get all items
 ```
-$ ./cmd/cli_client/cli_client getall
+$ ./cli_client getall
 ```
 
 ## Testing
