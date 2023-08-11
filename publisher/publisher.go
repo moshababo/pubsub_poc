@@ -38,7 +38,6 @@ func (p *Publisher) Publish(data []byte) error {
 	)
 	if err != nil {
 		return fmt.Errorf("publish error: %w", err)
-
 	}
 
 	p.logger.Info("published successfully, queue: %+v", queue)
